@@ -34,5 +34,5 @@
         }
     ]
 }
-console.log(theMoonInfo.age);
+console.log(theMoonInfo.favFood[0].name);
 */
