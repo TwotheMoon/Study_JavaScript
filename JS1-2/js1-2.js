@@ -1,7 +1,7 @@
-const theMoonInfo = {
-    name: "theMoon",
-    age : 28,
-    gender: "Male",
-    isHandsome: true
+//console.log(console);   // console 또한 하나의 오브젝트
+
+function sayHello(potato){  // 함수 선언 (메소드)
+    console.log('Hello!');
 }
-console.log(console);
+
+sayHello("theMoon");
