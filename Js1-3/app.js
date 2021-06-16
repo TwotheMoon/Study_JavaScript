@@ -32,22 +32,23 @@ division(10, 5);
 
 
 // 객체 만들고 함수 추가
+// const player = {
+//     name: "moon",
+//     sayHello: function(otherPersonsName){
+//         console.log("Hellow! " + otherPersonsName);
+//     },
+// };
+
+// console.log(player.name);
+
+// //  객체 player 안에 name 속성을 sayHello 함수에 인수로 전달
+//player.sayHello(player.name);
+
 const player = {
-    name: "moon",
-    sayHello: function(otherPersonsName){
-        console.log("Hellow! " + otherPersonsName);
+    name : "moon",
+    sayHellow : function(userName){
+        console.log("hellow" + userName);
     },
 };
 
-console.log(player.name);
-
-//  객체 player 안에 name 속성을 sayHello 함수에 인수로 전달
-player.sayHello(player.name);
-
-function ex(num){
-    while (num == 10) {
-        console.log(num + 1); 
-    }  
-};
-
-ex(1);
+player.sayHellow(player.name);
