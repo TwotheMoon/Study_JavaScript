@@ -22,5 +22,4 @@ if(isNaN(age) || age < 0){
 
 // and or 중복 사용 예시
 if((a && b) || (c && d) || (x || y)){
-
 }

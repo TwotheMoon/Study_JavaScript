@@ -1,0 +1,17 @@
+body{
+    background-color: wheat;
+}
+
+h1{
+    color: cornflowerblue;
+    transition: color 0.5s ease-in-out;
+}
+
+.active {
+    color: tomato;
+    
+}
+
+.clicked {
+    color: tomato;
+}
