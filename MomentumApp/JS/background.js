@@ -1,9 +1,10 @@
 const images = [
-    "0.png",
+    "0.jpg",
     "1.jpg",
     "2.jpg",
     "3.jpg",
-    "4.gif",
+    "4.jpg",
+    "5.jpg",
 ];
 
 const chosenImane = images[Math.floor(Math.random() * images.length )];
@@ -14,5 +15,6 @@ const bgImage = document.createElement("img");
 bgImage.src = `img/${chosenImane}`;
 
 document.body.appendChild(bgImage);
+
 //.appendChild : 요소를 제일 뒤에 배치
 //.prepend : 요소를 제일 위에 배치

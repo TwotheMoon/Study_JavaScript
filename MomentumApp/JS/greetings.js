@@ -17,7 +17,7 @@ function onLoginSubmit(event){  // (event) : addEventListerner 함수는 기본�
 }
 
 function paintGreetiongs(username){
-    greeting.innerText = `Hello ${username}`;
+    greeting.innerText = `Good day mate ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
