@@ -57,6 +57,15 @@ body{
     text-shadow: 2px 2px 1px black;
     margin-top: 30px;
 }
+.rink{
+    font-size: 30px;
+    position: relative;
+    font-weight: bold;
+    top: -30px;
+    left: -350px;
+    color: aquamarine;
+    text-decoration: underline;
+}
 
 #todo-form input{
     width: 500px;
